@@ -14,4 +14,7 @@ The pre-processing steps are as follows:
 - save the spreadsheet 
 
 The pre-processing steps can be repeated for any number of x positions (= radial positions), which can then be analysed by the script one by one.
+
+An example input file is found in this repository, and is named "test_data". You can use it to run the script. For reference, the dataset was acquired at a radius of 300 um, so you can change the value "radius" to 300 to obtain accurate results for this dataset.
+
 The script outputs an array of widths, calculated across the line profile which is read in at the beginning of the script. These widths can be saved into a new spreadsheet for further analysis. 
