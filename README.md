@@ -1,6 +1,8 @@
 # biofilm_channel_width
 Script that allows to calculate internal pattern width. It is part of a custom image analysis pipeline, which uses FIJI/ImageJ to extract a line profile signal from a polar-transformed image. 
 
+This script was written using Spyder version 4.0.1, running Python 3.7. 
+
 This script must be used in conjunction with a signal line profile file, which can be obtained in FIJI/ImageJ under "Analyze -> Plot profile". In particular, this script is used for biofilm images with polar geometry, which are pre-processed on FIJI/ImageJ using the Polar Transformer plugin (which can be downloaded at https://imagej.nih.gov/ij/plugins/polar-transformer.html). Briefly, the plugin takes an image which has polar geometry and converts it to an image in Cartesian coordinates (for example, the rim of a circular wheel would be converted to a straight vertical line). The plugin user can assign a number of pixels per degree, which will correspond to the number of pixels in the y direction in the converted cartesian image. 
 
 The pre-processing steps are as follows:
